@@ -1,0 +1,4 @@
+C:\Users\natha\Desktop\WPF_Entrainement_Nathan\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\natha\Desktop\WPF_Entrainement_Nathan\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\natha\Desktop\WPF_Entrainement_Nathan\obj\Debug\net8.0-windows\WPF_Entrainement_Nathan_MarkupCompile.cache
+C:\Users\natha\Desktop\WPF_Entrainement_Nathan\obj\Debug\net8.0-windows\WPF_Entrainement_Nathan_MarkupCompile.lref
