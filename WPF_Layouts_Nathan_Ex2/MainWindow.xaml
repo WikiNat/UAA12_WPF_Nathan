@@ -1,0 +1,48 @@
+﻿<Window x:Class="WPF_Layouts_Nathan_Ex2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Layouts_Nathan_Ex2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
+    <Grid Background="#FF9CAAAA">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+ 
+        <WrapPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0" Background="#FF9CAAAA">
+                <TextBox Width="170" Height="50" Margin="4" TextAlignment="Right"/>
+                <Button Content="C" Width="50" Height="50" Margin="5" Background="Red" FontSize="25" />
+            </WrapPanel>
+        <WrapPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Background="#FF9CAAAA">
+                <Button Content="1" Width="50" Height="50" Margin="5" FontSize="25" Background="#FF73BAB9"/>
+            <Button Content="2" Width="50" Height="50" Margin="5" FontSize="25" Background="#FF73BAB9"/>
+            <Button Content="3" Width="50" Height="50" Margin="5" FontSize="25" Background="#FF73BAB9"/>
+            <Button Content=" + " Width="50" Height="50" Margin="5" FontSize="25"  Background="#FF54A646"/>
+            </WrapPanel>
+        <WrapPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Background="#FF9CAAAA">
+            <Button Content="4" Width="50" Height="50" Margin="5" FontSize="25" Background="#FF73BAB9"/>
+            <Button Content="5" Width="50" Height="50" Margin="5" FontSize="25" Background="#FF73BAB9"/>
+            <Button Content="6" Width="50" Height="50" Margin="5" FontSize="25" Background="#FF73BAB9"/>
+            <Button Content=" - " Width="50" Height="50" Margin="5"  FontSize="25" Background="#FF54A646"/>
+            </WrapPanel>
+        <WrapPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3">
+            <Button Content="7" Width="50" Height="50" Margin="5" FontSize="25" Background="#FF73BAB9"/>
+            <Button Content="8" Width="50" Height="50" Margin="5" FontSize="25" Background="#FF73BAB9"/>
+            <Button Content="9" Width="50" Height="50" Margin="5" FontSize="25" Background="#FF73BAB9"/>
+            <Button Content=" / " Width="50" Height="50" Margin="5" FontSize="25" Background="#FF54A646"/>
+        </WrapPanel>
+        <WrapPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Background="#FF9CAAAA">
+
+            <Button Content="," Width="50" Height="50" Margin="5" FontSize="25" Background="#FFA3D5EF"/>
+            <Button Content="0" Width="50" Height="50" Margin="5" FontSize="25" Background="#FF73BAB9"/>
+            <Button Content=" * " Width="50" Height="50" Margin="5" FontSize="25" Background="#FF54A646"/>
+            <Button Content="=" Width="50" Height="50" Margin="5" FontSize="25" Background="#FFF7BF00"/>
+        </WrapPanel>
+    </Grid>
+</Window>
